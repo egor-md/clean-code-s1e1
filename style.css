@@ -83,7 +83,7 @@
 
 /* Heading */
 .todo-h3,
-.new-task-label {
+.new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -112,7 +112,7 @@
 }
 
 /* New Task */
-.new-task-label {
+.new-task {
   display: block;
   margin: 0 0 20px;
 }

@@ -8,27 +8,30 @@
 </head>
 
 <body class="todo-body">
-  <div class="greeting-wrapper">
+  <header class="greeting-wrapper">
     <img class="greeting-img" src="./eisenhower-matrix.jpg">
     <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="main-page">
-    <p id="head-section"><label class="new-task-label" for="new-task">Add Item</label>
+  </header>
+  <main class="main-page">
+    <div pid="head-section">
+      <div class="new-task" for="new-task">Add Item</div>
       <div class="task-row-wrapper">
         <input id="new-task" class="task-input" type="text">
         <button class="add-button">Add</button>
       </div>
-    </p>
+    </div>
     <h3 class="todo-h3">Todo</h3>
     <ul class="todo-ul" id="incomplete-tasks">
       <li class="todo-li">
-        <input class="todo-checkbox" type="checkbox"><label class="task-label">Pay Bills</label>
+        <input class="todo-checkbox" type="checkbox">
+        <div class="task-label">Pay Bills</div>
         <input type="text" class="task-input">
         <button class="edit">Edit</button>
         <button class="delete"><img class="delete-img" src="./remove.svg"></button>
       </li>
       <li class="todo-li edit-mode">
-        <input class="todo-checkbox" type="checkbox"><label class="task-label">Go Shopping</label>
+        <input class="todo-checkbox" type="checkbox">
+        <div class="task-label">Go Shopping</div>
         <input type="text" 
             value="Go Shopping" 
             class="task-input">
@@ -39,13 +42,14 @@
     <h3 class="todo-h3">Completed</h3>
     <ul class="todo-ul" id="completed-tasks">
       <li class="todo-li">
-        <input class="todo-checkbox" type="checkbox" checked><label class="task-label">See the Doctor</label>
+        <input class="todo-checkbox" type="checkbox" checked>
+        <div class="task-label">See the Doctor</div>
         <input type="text" class="task-input">
         <button class="edit">Edit</button>
         <button class="delete"><img class="delete-img" src="./remove.svg"></button>
       </li>
     </ul>
-  </div>
+  </main>
 <script src="app.js"></script>
 </body>
 
